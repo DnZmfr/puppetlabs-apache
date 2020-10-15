@@ -415,7 +415,7 @@ class apache::params inherits ::apache::version {
         'rpaf'                  => 'libapache2-mod-rpaf',
         'security'              => 'libapache2-mod-security2',
         'shib2'                 => 'libapache2-mod-shib2',
-        'wsgi'                  => 'libapache2-mod-wsgi',
+        'wsgi'                  => 'libapache2-mod-wsgi-py3',
         'xsendfile'             => 'libapache2-mod-xsendfile',
       }
     } else {
